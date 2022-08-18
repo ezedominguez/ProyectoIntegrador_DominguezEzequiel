@@ -6,7 +6,7 @@
         </button>
     </div>
 
-    <div class="col-lg-1"></div>
+    <div class="col lg 1"></div>
     <div class="col-lg-11">
         <table class="table">
             <tbody>
@@ -16,7 +16,7 @@
                     </td>
                     <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-light" routerLink="/editexp/{{Educacion.id}}">
+                        <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
                             <i class="bi bi-pencil-fill"></i> EDITAR</button>
                     </td>
                     <td *ngIf="isLogged">
@@ -27,5 +27,5 @@
             </tbody>
         </table>
     </div>
-    
+
 </div>
